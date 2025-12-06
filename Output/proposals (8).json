@@ -1,0 +1,436 @@
+{
+  "num_messages": 200,
+  "cluster_sizes": {
+    "8": 17,
+    "1": 16,
+    "6": 23,
+    "7": 20,
+    "2": 21,
+    "4": 38,
+    "3": 37,
+    "5": 22,
+    "0": 6
+  },
+  "sample_silhouette": {
+    "global_silhouette": 0.5859825015068054,
+    "per_cluster": {
+      "0": 0.928229808807373,
+      "1": 0.9735860824584961,
+      "2": 0.447294145822525,
+      "3": 0.5829784274101257,
+      "4": 0.6065766215324402,
+      "5": 0.3091870844364166,
+      "6": 0.6156426668167114,
+      "7": 0.5943719148635864,
+      "8": 0.564647912979126
+    }
+  },
+  "coherence": {
+    "0": 0.5796622633934021,
+    "1": 0.9273093938827515,
+    "2": 0.6595852971076965,
+    "3": 0.4948772192001343,
+    "4": 0.5690020322799683,
+    "5": 0.4768929183483124,
+    "6": 0.6077880263328552,
+    "7": 0.7187051773071289,
+    "8": 0.6508833765983582
+  },
+  "proposals": [
+    {
+      "cluster": 1,
+      "size": 16,
+      "cluster_share": 0.08,
+      "top_terms": [
+        "track order",
+        "track",
+        "order",
+        "help track",
+        "help",
+        "harmful chemicals",
+        "harmful chenicals",
+        "hasn",
+        "hasn delivered",
+        "hasn shipped",
+        "hau",
+        "harmful"
+      ],
+      "novel_terms": [
+        "track order",
+        "track",
+        "help track",
+        "help",
+        "harmful chemicals",
+        "harmful chenicals",
+        "hasn",
+        "hasn delivered",
+        "hasn shipped",
+        "hau",
+        "harmful"
+      ],
+      "sample_messages": [
+        "How to track order?",
+        "How to track order?",
+        "How to track order?",
+        "How to track order?",
+        "How to track order ?",
+        "How to track order?"
+      ],
+      "cluster_silhouette": 0.9735860824584961,
+      "coherence": 0.9273093938827515,
+      "proposal_confidence": 0.9597030758857726,
+      "suggested_primary": "logistics",
+      "llm_raw": "{\n  \"label\": \"Track Order\",\n  \"id\": \"track_order\",\n  \"description\": \"Requesting information about the status of a shipment.\",\n  \"confidence\": 1\n}",
+      "llm_parsed": {
+        "label": "Track Order",
+        "id": "track_order",
+        "description": "Requesting information about the status of a shipment.",
+        "confidence": 1.0
+      }
+    },
+    {
+      "cluster": 2,
+      "size": 21,
+      "cluster_share": 0.105,
+      "top_terms": [
+        "hair",
+        "growth",
+        "hair growth",
+        "growth serum",
+        "advanced hair",
+        "serum",
+        "advanced",
+        "30 ml",
+        "30",
+        "redensyl",
+        "water 30",
+        "redensyl rosemary"
+      ],
+      "novel_terms": [
+        "hair",
+        "growth",
+        "hair growth",
+        "growth serum",
+        "advanced hair",
+        "serum",
+        "advanced",
+        "30 ml",
+        "30",
+        "redensyl",
+        "water 30",
+        "redensyl rosemary"
+      ],
+      "sample_messages": [
+        "human: How long to see results? Advanced Hair Growth Serum with Redensyl, Rosemary, Rice Water (30 ml) - ai: Good morning! You can see noticeable results from the Advanced Hair Growth Serum with Redensyl, Rosemary, Rice Water (30 ml) within 45 days of consistent use, and many users have reported amazing results, like one saying it helped grow hair 2x faster! Plus, you can expect up to 214% new hair growth in just 10 days. Would you like to know more about the ingredients or how to use it? - ai: {\"message_hints\": [\"How long for visible results?\", \"Is it safe for oily scalp?\", \"What happens if I stop using?\"]} - human: In hindi - ai: आप 45 दिनों के लगातार उपयोग में परिणाम देख सकते हैं। - human: Acha - ai: Glad I could help! If you have any more questions about our products, feel free to ask. - human: Kya fayda hai - ai: Advanced Hair Growth Serum with Redensyl, Rosemary, Rice Water (30 ml) helps boost hair growth by 214%, reduces hair loss, and strengthens hair follicles. Want to grab it? You can add it to your cart (http://bareanatomy.myshopify.com/cart/40635353432110:1?note=came-from-verifast). Plus, use code VTFLAT35 for 35% off on orders above 899!\nSeee results",
+        "Does it work for bald patches? Advanced Hair Growth Serum with Redensyl, Rosemary, Rice Water (30 ml)",
+        "Suggest something for hair growth?",
+        "human: Can I use it daily? Advanced Hair Growth Serum with Redensyl, Rosemary, Rice Water (30 ml) - ai: Good evening! Yes, you can use the Advanced Hair Growth Serum with Redensyl, Rosemary, Rice Water (30 ml) daily for the best results, and you can see up to 214% new hair growth within the first 10 days! Would you like to know more about the product, like ingredients or how to use it? - ai: {\"message_hints\": [\"How long for visible results?\", \"Is it safe for oily scalp?\", \"What happens if I stop using?\"]} - human: What happens if I stop using? - ai: If you stop using the Advanced Hair Growth Serum with Redensyl, Rosemary, Rice Water (30 ml), you may gradually lose the benefits, like reduced hair fall and improved growth, but many users, like Sanya Khan, have seen great results and recommend consistent use for the best outcome! Want to give it a try?\nHow to apply this..?",
+        "human: I have ready to order hair serum and rosemary and hibiscuses oil for my hair thinning  and hairfall how to use both - ai: For the Hair Growth Serum, apply it daily to your scalp and massage gently, and for the Rosemary & Hibiscus Hair Growth Oil, use it 2-3 times a week before shampooing or as an overnight treatment. Would you like to know more about the products, like ingredients or other details? - human: Did it promotes volume of hair? - ai: Yes, the Rosemary & Hibiscus Hair Growth Oil helps nourish and strengthen hair, promoting volume! - human: How many days it will taks to grow hair - ai: It typically takes about 12 weeks to see visible hair growth results with the Bare Anatomy Nature x Science Rosemary & Hibiscus Hair Growth Oil. Would you like to know what makes the product special for your requirement? - human: Yes - ai: The Bare Anatomy Nature x Science Rosemary & Hibiscus Hair Growth Oil promotes hair growth, strengthens hair, and helps with volume—perfect for your hair thinning and hair fall concerns! You can grab it for just 221.00 INR (http://bareanatomy.myshopify.com/cart/41159248117806:1?note=came-from-verifast). - human: How much day it will to controll hair thinning and hairfall and to protect hair - ai: You can expect to see improvements in hair thinning and hair fall control within about 12 weeks of consistent use! - human: How many days the serum will come - ai: I'm sorry to inform you that your order has been cancelled. Here are the details of your order:\n\n- **Order Number:** #2924295\n- **Ordered Products:** Hair Fall Control Shampoo with Peptides, Rosemary & Rice Water Hair Growth Spray\n- **Cancellation Status:** Cancelled\n\nIf you have any further questions or need assistance, feel free to ask! - human: If i use the serum, how many days it will come - ai: I'm sorry, but I don't have information regarding the delivery time for the serum.\nI asked about quantity",
+        "human: Suggest something for hair growth? - ai: Good morning! I recommend the Bare Anatomy EXPERT Advanced Hair Growth Serum with Redensyl, Rosemary, and Rice Water for effective hair growth. Would you like to know what makes the product special for your requirement? - human: Is this make hair thicker - ai: Yes, the Bare Anatomy EXPERT Advanced Hair Growth Serum helps improve hair thickness along with promoting growth! - human: But some of them are saying there is no result with this product - ai: I understand your concern; results can vary from person to person, but many users have seen positive changes with the Bare Anatomy EXPERT Advanced Hair Growth Serum! - human: How many days need to notice the changes by using it - ai: You can typically notice changes in hair growth within 10 days of using the Bare Anatomy EXPERT Advanced Hair Growth Serum! - human: Is it can full bald areas - ai: Yes, the Bare Anatomy EXPERT Advanced Hair Growth Serum can help fill in bald areas over time! - human: Are you lie to me - ai: I'm just sharing what many users have experienced, but results can vary! - human: Vary means - ai: Vary means results can be different for everyone, but many users have seen improvements in bald areas with consistent use of the Bare Anatomy EXPERT Advanced Hair Growth Serum! - human: How many bottles need - ai: It depends on the size of the bald area, but many people find that a pack of 3 or 6 bottles works well for noticeable results! - human: Thankyou - ai: You're welcome! If you have any more questions, feel free to ask. Happy to assist anytime!\nIs this is approved by dermatologist"
+      ],
+      "cluster_silhouette": 0.447294145822525,
+      "coherence": 0.6595852971076965,
+      "proposal_confidence": 0.5109814912080765,
+      "suggested_primary": "specific_product",
+      "llm_raw": "{\n\"label\": \"Hair Growth Product Information\",\n\"id\": \"hair_growth_product_info\",\n\"description\": \"Get information about hair growth products, their usage, and benefits.\",\n\"confidence\": 0.9\n}",
+      "llm_parsed": {
+        "label": "Hair Growth Product Information",
+        "id": "hair_growth_product_info",
+        "description": "Get information about hair growth products, their usage, and benefits.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "cluster": 3,
+      "size": 37,
+      "cluster_share": 0.185,
+      "top_terms": [
+        "skin",
+        "body",
+        "wash",
+        "acid",
+        "body wash",
+        "ai",
+        "human",
+        "special",
+        "face",
+        "exfoliating",
+        "exfoliating body",
+        "lactic"
+      ],
+      "novel_terms": [
+        "skin",
+        "body",
+        "wash",
+        "acid",
+        "body wash",
+        "human",
+        "face",
+        "exfoliating",
+        "exfoliating body",
+        "lactic"
+      ],
+      "sample_messages": [
+        "What's special about it? Underarm Roll On for Odour Control & Pigmentation",
+        "human: Hello - ai: Good afternoon! Hope you’re doing well. How may I assist you today? - human: I have dull face....which serum better for glow - ai: For a glowing face, I recommend the << 10% Vitamin C Face Serum for Glowing & Bright Skin - 30ml >>. Would you like to know what makes it special for your requirement? - human: I have strawberry arms and legs what should do - ai: You might want to try the << Exfoliating Body Wash with Lactic Acid - 236 ml >> to help with strawberry arms and legs! - human: Which body lotion is good for strawberry legs and arms - ai: You should try the << AHA Body Lotion with Niacinamide & Shea Butter >> for strawberry legs and arms! - human: Add to cart - AHA Body Lotion with Niacinamide & Shea Butter - ai: Great choice! I have added the product to cart. Would you like to continue chatting or proceed to checkout?\nWhich facewash is good for brighter face",
+        "human: Hello, please explain the after care - ai: Good evening! For aftercare, it's best to follow up with sunscreen during the day and moisturize regularly to keep your skin hydrated and protected. - human: Okay. Any other precautions to be taken - ai: Make sure to do a patch test before use, avoid overuse to prevent irritation, and always wear sunscreen during the day! - human: Okay. Would gel moisturiser be suitable ? - ai: Absolutely, a gel moisturizer can be great for hydration without feeling heavy! Ready to elevate your beauty routine? What's your skin type, and do you have any specific concerns you'd like to address? - human: Skin tyoe is oily and sensitive - ai: Yes, a gel moisturizer would be perfect for your oily and sensitive skin!\nOkay",
+        "human: Hi - ai: Hello! Welcome to Innovist. I am Innovist's Expert for skin and hair care products. Can you tell me for what specific product are you looking for? - human: Main khuch bhi jaan sakti hu - ai: Hello! Aap kaise hain? Main aapki madad kaise kar sakta hoon? - human: Okie to muhje exfoliating body wash je bare me Jana h - ai: Exfoliating Body Wash with Lactic Acid gently exfoliates dead skin, hydrates, and improves skin tone—perfect for bumpy or dry skin! - human: Okie - ai: Exfoliating Body Wash with Lactic Acid is designed to gently exfoliate dead skin cells, improve skin tone, and hydrate the skin. It's suitable for all skin types and helps with concerns like bumpy skin and dryness. You can find more details and purchase it (https://innovist.com/products/lactic-acid-zemea-vitamin-e-exfoliating-body-wash?utm_source=verifast). Let me know if you have any other questions! - human: To yeh kya kya kam karta h - ai: Yeh exfoliating body wash dead skin cells ko gently exfoliate karta hai, skin tone ko improve karta hai, aur hydration provide karta hai. - human: Okie and yeh what about darkness? - ai: Yeh body wash dullness ko reduce karne mein madad karta hai aur skin ko brighter banata hai. Would you like to know what makes the product special for your requirement? - human: Yeah - ai: Exfoliating Body Wash with Lactic Acid dullness ko reduce karta hai, skin ko brighter banata hai, aur hydration provide karta hai—perfect for that fresh glow! Aap ise (http://bareanatomy.myshopify.com/cart/40044824297518:1?note=came-from-verifast) aur abhi 25% off bhi le sakte hain! - human: Okie and what about dark body parts? - ai: For dark body parts, you can try the Neck, Knee, Elbow Brightening Roll On, which targets pigmentation and uneven skin tone effectively!\nSo body wash can't reduce darkness? From body part",
+        "What's special about it? AHA Body Lotion with Niacinamide & Shea Butter",
+        "How to use it in daily routine? 10% Vitamin C Face Serum for Glowing & Bright Skin - 10ml"
+      ],
+      "cluster_silhouette": 0.5829784274101257,
+      "coherence": 0.4948772192001343,
+      "proposal_confidence": 0.5565480649471283,
+      "suggested_primary": "unknown",
+      "llm_raw": "{\n\"label\": \"Exfoliating Body Wash Recommendation\",\n\"id\": \"exfoliating_body_wash_recommendation\",\n\"description\": \"Recommend exfoliating body wash for skin concerns such as dullness and dryness.\",\n\"confidence\": 0.8\n}",
+      "llm_parsed": {
+        "label": "Exfoliating Body Wash Recommendation",
+        "id": "exfoliating_body_wash_recommendation",
+        "description": "Recommend exfoliating body wash for skin concerns such as dullness and dryness.",
+        "confidence": 0.8
+      }
+    },
+    {
+      "cluster": 4,
+      "size": 38,
+      "cluster_share": 0.19,
+      "top_terms": [
+        "order",
+        "human",
+        "ai",
+        "track",
+        "contact",
+        "number",
+        "track order",
+        "ai understand",
+        "understand",
+        "id",
+        "feel free",
+        "free"
+      ],
+      "novel_terms": [
+        "human",
+        "track",
+        "number",
+        "track order",
+        "ai understand",
+        "understand",
+        "id",
+        "feel free",
+        "free"
+      ],
+      "sample_messages": [
+        "human: Where is my Order 3220098 - ai: Your order #3220098 is confirmed! You have ordered the following products:\n\n- Underarm Roll On for Odour Control & Pigmentation\n- 🎁 Free Oil Control Shampoo - 15 ml\n- Exfoliating Body Wash with Lactic Acid - 236 ml\n- Salicylic Acid Body Wash for Acne Control - 236 ml\n\nWe will ship your order within 48 hours. Once dispatched, you will receive an update via email and mobile. Please note that we take 3-7 days to deliver your order to your doorstep. If you have any further questions, feel free to ask! - human: Its already been 48hrs of placing the order then till now why the order is not shipped - ai: I understand your concern, and I apologize for the delay. Your order #3220098 is currently unfulfilled, which means it hasn't been shipped yet. Please rest assured that we are working to process your order as quickly as possible. \n\nIf you have any further questions or need assistance, feel free to ask!\nWhen the order will be shipped",
+        "human: Company name - ai: Hello! Hope you’re doing well this evening. How may I assist you today?\nMy order company name",
+        "human: 3199363 - ai: Thank you for providing your contact number! Our team will reach out to you shortly regarding your order #3199363. If you have any other questions in the meantime, feel free to ask! - human: Hello - ai: Hello! Hope you’re doing well. How may I assist you today? - human: Ok - ai: Glad I could help! If you have any more questions or need assistance, feel free to ask. - human: 3199363 - ai: If you have any questions or need assistance with our products, feel free to ask!\nHow to track order",
+        "human: How to track order? - ai: I'm sorry, but I can't find any information associated with your order. Could you please share your contact number or email ID so I can assist you further? \n\nJust a reminder, we take 3-7 days to deliver your order to your doorstep. Thank you for your understanding!\nrohanvijay990@gmail.com 9380163998",
+        "human: How to track order? - ai: I'm sorry, but I can't find any information associated with your order. Could you please share your contact number or email ID so I can assist you further? \n\nJust a reminder, we take 3-7 days to deliver your order to your doorstep. Thank you for your understanding!\n9940098250",
+        "human: Expected delivery date - ai: I'm sorry, but I can't find any information associated with your order. Could you please share your contact number or email ID so I can assist you better? \n\nJust to let you know, we take 3-7 days to deliver your order to your doorstep. Thank you for your understanding! - human: 600039 - ai: I understand you're looking for the expected delivery date. Upon checking your order details, I found that you have placed more than one order. Here are your order numbers: #3225714 and #3159650. \n\nCould you please let me know which order you would like to know the details for? Thank you!\nI didn’t place. Planning to order body wash. Need to know exact delivery date"
+      ],
+      "cluster_silhouette": 0.6065766215324402,
+      "coherence": 0.5690020322799683,
+      "proposal_confidence": 0.5953042447566985,
+      "suggested_primary": "logistics",
+      "llm_raw": "{\n  \"label\": \"track order status\",\n  \"id\": \"track_order_status\",\n  \"description\": \"Request to know the status of an order\",\n  \"confidence\": 0.9\n}",
+      "llm_parsed": {
+        "label": "track order status",
+        "id": "track_order_status",
+        "description": "Request to know the status of an order",
+        "confidence": 0.9
+      }
+    },
+    {
+      "cluster": 5,
+      "size": 22,
+      "cluster_share": 0.11,
+      "top_terms": [
+        "hai",
+        "hair",
+        "serum",
+        "ai",
+        "human",
+        "hairfall",
+        "hindi",
+        "team",
+        "tamil",
+        "fall",
+        "hair fall",
+        "aur"
+      ],
+      "novel_terms": [
+        "hai",
+        "hair",
+        "serum",
+        "human",
+        "hairfall",
+        "hindi",
+        "tamil",
+        "fall",
+        "hair fall",
+        "aur"
+      ],
+      "sample_messages": [
+        "human: Hii - ai: Good evening! Hope you’re doing well. How may I assist you today?\nMy hair fall were not stop",
+        "Hindi language",
+        "human: Mam I talking to you - ai: Good morning! Hope you’re doing well. How may I assist you today? - human: Mam main kolkata se hu - ai: Aap Kolkata se hain, yeh jaan kar accha laga! Kya main aapki kisi tarah se madad kar sakta hoon? - human: Mam aye serum jo hai o kaise use karte hai - ai: Aapko Advanced Hair Growth Serum ko dry scalp par lagana hai, roots par dhyan dekar, phir gently massage karein aur raat bhar chhod dein; aap pehle 10 din mein 214% tak naye baalon ki growth dekh sakte hain! Kya aap is product ke ingredients ya aur kuch jaankari chahenge? - ai: {\"message_hints\": [\"How long for visible results?\", \"Is it safe for oily scalp?\", \"What happens if I stop using?\"]} - human: Hmm - ai: Aapko koi aur jaankari chahiye? Agar aapko is serum ke ingredients ya benefits ke baare mein padhna hai, toh aap is link par jaa sakte hain: (https://innovist.com/products/advanced-hair-growth-serum?utm_source=verifast). - human: Mam apke sath ph main baat ho sakti hai - ai: Mujhe khed hai, lekin main sirf Innovist ke products ke baare mein hi madad kar sakta hoon. Agar aapko kisi product ke baare mein jaankari chahiye, toh aap mujhe bata sakte hain! - human: Main aye product lena chati hu but main aye kaise use Karu thora details main batayge to main product le paungi - ai: Sure! Just apply a generous amount of Advanced Hair Growth Serum on a dry scalp, focus on the roots, massage gently, and leave it overnight for the best results! - human: Mere ko sirf aye bataiye aye shampoo k baat roj raat mein laga k so jau - ai: Aapko Advanced Hair Growth Serum ko raat ko laga kar so jaana hai, bas scalp par achhe se lagaayein aur subah dhone se pehle chhod dein! - human: Matlab raat main lagungi or subah main shampoo kar lungi - ai: Haan, aap raat ko Advanced Hair Growth Serum laga kar so sakti hain aur subah shampoo kar sakti hain! - human: Aye 10 din asehi karo - ai: Haan, aap 10 din tak aise hi kar sakti hain! - human: Or mam main ak baby hai o hone k baat mere bohot hair fall hone laga hai - ai: Postpartum hair fall is common, and the Advanced Hair Growth Serum with Redensyl, Rosemary, and Rice Water can help promote new hair growth! Would you like to know what makes this product special for your requirement? - human: Kuch problem nehi honge na - ai: Nahi, is serum ka use karne se koi problem nahi hoga, yeh dermatologically tested hai!\nMain alps  goodness   Rosemary water use abhi kar rehehu par thora bhi farak nehi ho rehi hai",
+        "human: Hindi - ai: नमस्ते! शुभ रात्रि। मैं आपकी कैसे मदद कर सकता हूँ?\nYe hairfall rukhne m halp krega",
+        "human: Isko lgate samay aur bhi koi oil use kr skte hai apne balo me - ai: Good evening! You can definitely use other oils along with the Advanced Anti-Grey Serum for your hair. Ready to elevate your beauty routine? What's your skin type, and do you have any specific concerns you'd like to address? - human: Dry - ai: Haan, aap Advanced Anti-Grey Serum ke saath kisi bhi nourishing oil ka istemal kar sakte hain, jaise ki coconut oil ya argan oil, jo dry hair ke liye achha hai.\nYe bal kale krenge agar kuchh bal safed ho gye hai to 17- 18 ki age me",
+        "human: Isko kaise use kare? Hair Fall Control Shampoo with Peptides - ai: Good afternoon! Aap Hair Fall Control Shampoo with Peptides ko scalp aur baalon par lagayein, halka sa massage karein, aur phir lukewarm ya cold paani se dhoyein. Kya aap is product ke ingredients ya aur kuch jaanna chahenge? - human: Only 460? - ai: Haan, Hair Fall Control Shampoo with Peptides ka price sirf 460 INR hai!\nLooks like it’s cheap one"
+      ],
+      "cluster_silhouette": 0.3091870844364166,
+      "coherence": 0.4768929183483124,
+      "proposal_confidence": 0.35949883460998533,
+      "suggested_primary": "specific_product",
+      "llm_raw": "{\n\"label\": \"Hair fall treatment\",\n\"id\": \"hair_fall_treatment\",\n\"description\": \"Get information and advice on treating hair fall with Advanced Hair Growth Serum.\",\n\"confidence\": 0.9\n}",
+      "llm_parsed": {
+        "label": "Hair fall treatment",
+        "id": "hair_fall_treatment",
+        "description": "Get information and advice on treating hair fall with Advanced Hair Growth Serum.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "cluster": 6,
+      "size": 23,
+      "cluster_share": 0.115,
+      "top_terms": [
+        "dandruff",
+        "shampoo",
+        "dandruff shampoo",
+        "anti",
+        "anti dandruff",
+        "bare anatomy",
+        "anatomy",
+        "bare",
+        "use",
+        "hair",
+        "acid biotin",
+        "scalp"
+      ],
+      "novel_terms": [
+        "dandruff",
+        "shampoo",
+        "dandruff shampoo",
+        "anti",
+        "anti dandruff",
+        "bare anatomy",
+        "anatomy",
+        "bare",
+        "use",
+        "hair",
+        "acid biotin",
+        "scalp"
+      ],
+      "sample_messages": [
+        "human: How to use this product - ai: To use the Anti Dandruff Shampoo with Salicylic Acid & Biotin- 250ml, just apply it to your scalp and hair, massage gently, and rinse with lukewarm or cold water, using it twice to thrice a week. Would you like to know more about the product, like ingredients or other details?\nOthers details",
+        "What's special about it? Ultra Smoothing Shampoo for Smooth & Shiny Hair- 250ml",
+        "human: What's special about it? Anti Dandruff Shampoo with Salicylic Acid & Biotin- 250ml - ai: Good morning! The Anti Dandruff Shampoo with Salicylic Acid & Biotin- 250ml is special because it reduces up to 100% dandruff in just 3 washes, exfoliates dead skin, and strengthens hair roots without drying out your scalp. Would you like to know more about the ingredients or how to use it? - human: Other than salicylic acid and biotin what are the other components in this shampoo - ai: Other than Salicylic Acid and Biotin, the shampoo contains ingredients like Piroctone Olamine, Glycerin, Shea Butter, and Dimethicone. - human: You have 2 types of anti dandruff shampoo what are the different between them - ai: The two types of Anti Dandruff Shampoo are the Bare Anatomy EXPERT Anti-Dandruff Shampoo, which is clinically proven to reduce dandruff with Salicylic Acid and Biotin, and the other Anti Dandruff Shampoo with Salicylic Acid and Piroctone Olamine, which also targets dandruff but has a different formulation. You can grab the Bare Anatomy EXPERT Anti-Dandruff Shampoo for just 460.00 INR and enjoy 35% off on orders above 899 with code VTFLAT35! (http://bareanatomy.myshopify.com/cart/40158830198830:1?note=came-from-verifast)\nWhich one is the best shampoo for dandruff and why",
+        "human: How to use it in daily routine? Scalp Exfoliating Scrub - 250gm - ai: Good morning! You can use the Scalp Exfoliating Scrub - 250gm once or twice a week before shampooing for best results. Would you like to know more about the product, like ingredients or how to use it? - human: Will this be helpfull for treating severe dandruff - ai: Yes, the Scalp Exfoliating Scrub - 250gm can help reduce dandruff by up to 99%. Would you like to know what makes the product special for your requirement? - human: Yes - ai: The Scalp Exfoliating Scrub - 250gm helps reduce dandruff, exfoliates dead skin, and hydrates your scalp, making it perfect for severe dandruff issues. You can grab it (http://bareanatomy.myshopify.com/cart/41011265241134:1?note=came-from-verifast) and don't forget to use code VTFLAT35 for 35% off on orders above 899! - human: Is it available in Canada - ai: I don't have information regarding availability in Canada. - human: How to use it tell me step by step - ai: Sure! Here’s how to use the Scalp Exfoliating Scrub - 250gm: \n\n1. Apply the required amount to your wet scalp.\n2. Gently massage it into your scalp for a few minutes.\n3. Rinse it off thoroughly with water.\n4. Follow up with a mild shampoo. \n\nEnjoy your scalp care! - human: Any recommendations for shampoo - ai: I recommend the Bare Anatomy EXPERT Anti-Dandruff Shampoo for dandruff control or the Bare Anatomy EXPERT Ultra-Smoothing Shampoo for frizz-free, shiny hair!\nAny basic shampoos available in market ?",
+        "human: Anti dandruff shampoo - ai: Good evening! Check out the Bare Anatomy EXPERT Anti-Dandruff Shampoo with Salicylic Acid & Biotin—clinically proven to reduce up to 100% dandruff in just 3 washes. Would you like to know more about the ingredients or how to use it? - human: How is it - ai: The Bare Anatomy EXPERT Anti-Dandruff Shampoo is great for reducing dandruff quickly and is suitable for all hair types! Want to check it out?\nTamil",
+        "What's special about it? Anti Dandruff Shampoo with Salicylic Acid & Biotin- 250ml"
+      ],
+      "cluster_silhouette": 0.6156426668167114,
+      "coherence": 0.6077880263328552,
+      "proposal_confidence": 0.6132862746715546,
+      "suggested_primary": "specific_product",
+      "llm_raw": "{\n\"label\": \"Ask about product details\",\n\"id\": \"ask_product_details\",\n\"description\": \"Request information about product ingredients, usage, or other details.\",\n\"confidence\": 0.8\n}",
+      "llm_parsed": {
+        "label": "Ask about product details",
+        "id": "ask_product_details",
+        "description": "Request information about product ingredients, usage, or other details.",
+        "confidence": 0.8
+      }
+    },
+    {
+      "cluster": 7,
+      "size": 20,
+      "cluster_share": 0.1,
+      "top_terms": [
+        "spray",
+        "growth spray",
+        "water hair",
+        "hair growth",
+        "growth",
+        "hair",
+        "rosemary",
+        "water",
+        "rice",
+        "rice water",
+        "use",
+        "rosemary rice"
+      ],
+      "novel_terms": [
+        "spray",
+        "growth spray",
+        "water hair",
+        "hair growth",
+        "growth",
+        "hair",
+        "rosemary",
+        "water",
+        "rice",
+        "rice water",
+        "use",
+        "rosemary rice"
+      ],
+      "sample_messages": [
+        "human: How to use it in daily routine? Rosemary & Rice Water Hair Growth Spray - ai: Good evening! You can use the Rosemary & Rice Water Hair Growth Spray daily as a leave-in conditioner after washing your hair or apply it overnight as a scalp treatment. Would you like to know more about the product, like ingredients or other details? - human: Is it beneficial - ai: Absolutely! The Rosemary & Rice Water Hair Growth Spray promotes hair growth, boosts thickness, and reduces hair fall. - human: Results - ai: You can expect visible results like reduced hair fall and improved thickness within 2-4 weeks of consistent use! If you're interested, you can grab the Rosemary & Rice Water Hair Growth Spray for just 379.00 INR (http://bareanatomy.myshopify.com/cart/41159842267182:1?note=came-from-verifast).\nAdd to cart - Rosemary & Rice Water Hair Growth Spray",
+        "human: How to use it in daily routine? Rosemary & Hibiscus Hair Growth Oil - ai: Good evening! You can use the Rosemary & Hibiscus Hair Growth Oil 2-3 times a week before shampooing or as an overnight treatment. Would you like to know more about the product, like its ingredients or other details? - human: Shampoo or serum ko kse use kre - ai: Use the shampoo to cleanse your hair and scalp, then apply the serum to nourish and promote hair growth.\nBefore use serum oil can be applied",
+        "human: What's special about it? Rosemary & Hibiscus Hair Growth Oil - ai: Good afternoon! The Rosemary & Hibiscus Hair Growth Oil is special because it reduces hair fall in just 7 uses and promotes visible hair growth in 12 weeks, all while nourishing your scalp and strengthening your hair. Would you like to know more about the ingredients or how to use it? - human: Can you tell me how to used - ai: You can apply the Rosemary & Hibiscus Hair Growth Oil 2-3 times a week before shampooing or overnight, massaging it gently onto your scalp and hair lengths.\nCan you tell me how to used hair fall shampoo",
+        "human: How to track order? - ai: Your order (#3223850) for the Rosemary & Rice Water Hair Growth Spray is confirmed! We will ship your order within 48 hours. Once dispatched, you will receive updates via email and mobile. \n\nPlease note that we take 3-7 days to deliver your order to your doorstep. If you have any further questions, feel free to ask! - human: how to delete innovist account - ai: I'm sorry for any inconvenience you're experiencing. To delete your Innovist account, please reach out directly to our support team at chat@innovist.com. They will assist you with the process. If you have any other questions, feel free to ask! - human: when my order will deliver to me - ai: Your order for the Rosemary & Rice Water Hair Growth Spray will be delivered within 3 to 7 days from the order date, which was on November 1st. If you have any other questions or need further assistance, feel free to ask! - human: i want to know exact delivery date - ai: I understand that you're eager to know the exact delivery date. Since your order was placed on November 1st, it should be delivered between November 4th and November 8th. If you have any other questions or need further assistance, feel free to ask! - human: how to use rosemary spray - ai: To use the Rosemary & Rice Water Hair Growth Spray, just apply it directly to your scalp and hair strands daily as a leave-in conditioner or overnight treatment. - human: how many time in a week - ai: You can use the Rosemary & Rice Water Hair Growth Spray daily or 2-3 times a week as an overnight treatment.\n2-3 times is good for hair growth",
+        "How to use",
+        "human: How to use it in daily routine? Rosemary & Rice Water Hair Growth Spray - ai: Good evening! You can use the Rosemary & Rice Water Hair Growth Spray daily as a leave-in conditioner after washing your hair or apply it overnight as a scalp treatment. Would you like to know more about the product, like ingredients or other details? - human: Hi - ai: Hello! Welcome to Innovist. I am Innovist's Expert for skin and hair care products. Can you tell me for what specific product are you looking for? - human: Hair serum - ai: Hey there! Check out the Advanced Hair Growth Serum with Redensyl, Rosemary, Rice Water—it's clinically proven to boost hair growth by 214% in just 10 days and reduces hair loss by 89%. - ai: {\"message_hints\": [\"How long for visible results?\", \"Is it safe for oily scalp?\", \"What happens if I stop using?\"]} - human: How do we use it - ai: To use the Advanced Hair Growth Serum with Redensyl, Rosemary, Rice Water, just apply a generous amount on a dry scalp, focus on the roots, massage gently, and leave it overnight for best results. You can grab it (http://bareanatomy.myshopify.com/cart/40635353432110:1?note=came-from-verifast) for just 849.00 INR! - human: Specific way to apply - ai: Apply a generous amount on a dry scalp, focusing on the roots and thinning areas, then massage gently and leave it overnight for best results. - human: Aft3r appkyung do we have to wash or leac3 it - ai: You can leave the Advanced Hair Growth Serum on overnight and don't need to wash it out! - human: How many time a day need to apply - ai: You should apply the Advanced Hair Growth Serum once a day, ideally in the evening.\nOkayy"
+      ],
+      "cluster_silhouette": 0.5943719148635864,
+      "coherence": 0.7187051773071289,
+      "proposal_confidence": 0.6316718935966491,
+      "suggested_primary": "specific_product",
+      "llm_error": "HTTPError 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kbq4fdpneyzadjhkaryyp6p7` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5426, Requested 978. Please try again in 4.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n"
+    },
+    {
+      "cluster": 8,
+      "size": 17,
+      "cluster_share": 0.085,
+      "top_terms": [
+        "innovist",
+        "product",
+        "best product",
+        "ai hello",
+        "hello",
+        "best",
+        "welcome innovist",
+        "tell specific",
+        "specific product",
+        "innovist innovist",
+        "innovist expert",
+        "product looking"
+      ],
+      "novel_terms": [
+        "innovist",
+        "best product",
+        "ai hello",
+        "hello",
+        "best",
+        "welcome innovist",
+        "tell specific",
+        "specific product",
+        "innovist innovist",
+        "innovist expert",
+        "product looking"
+      ],
+      "sample_messages": [
+        "human: What's your best product? - ai: Good evening! Our best product is the Chemist at Play Underarm Roll-On for Odour Control & Pigmentation, which is great for reducing underarm pigmentation and controlling odor. Ready to elevate your beauty routine? What's your skin type, and do you have any particular concerns you'd like to address?\nBest for oily skin",
+        "human: Aap Hindi mein bataiye - ai: नमस्ते! शाम का समय है, आपको शुभ संध्या! कैसे मदद कर सकता हूँ? - human: Mujhe face wash order karna hai - ai: Aap \"Salicylic Acid Face Wash for Acne & Oil Control- 100ml\" order kar sakte hain, iska price hai 260.00 INR. Kya aap is product ke ingredients ya use karne ka tarika aur jaanna chahenge? - human: Order kaise karte hain - ai: Aap is link par jaakar \"Salicylic Acid Face Wash for Acne & Oil Control- 100ml\" order kar sakte hain: (http://bareanatomy.myshopify.com/cart/40387288629294:1?note=came-from-verifast). - human: Add to cart - Salicylic Acid Face Wash for Acne & Oil Control- 100ml - ai: Great choice! I have added the product to cart. Would you like to continue chatting or proceed to checkout? - human: Aap Hindi mein message nahin kar sakti - ai: I'm sorry, but I can only respond in English. How can I assist you with your order? - human: Order kab tak a jaega - ai: Mujhe aapka order dhoondhne mein madad karne ke liye aapka contact number ya email id chahiye. Hum aapke order ki details jaanne mein madad kar sakte hain. \n\nAapko yeh bhi yaad rahe ki humara delivery time 3 se 7 din hai, isliye aapka order aapke doorstep par jaldi hi aayega. - human: Main aapko adress bhej rahi hun mande Wal Tanda taluk jevar hi jila kalburgi sevalal gudi ke pass Aakar call kijiye - ai: Mujhe aapki pareshani ke liye khed hai. Aap apne order se sambandhit kisi bhi samasya ke liye seedha chat@innovist.com par sampark kar sakte hain. Hum aapki madad karne ke liye yahan hain! - human: Kis date pe order mil jayega - ai: Mujhe aapka order dhoondhne mein madad karne ke liye aapka contact number ya email id chahiye. Isse hum aapki order details jaanne mein madad kar sakte hain. \n\nAapko yeh yaad rahe ki hum 3 se 7 din mein aapka order aapke doorstep par pahunchate hain. - human: Mera order kab aaega - ai: Mujhe aapki order details dhoondhne mein madad karne ke liye aapka contact number ya email id chahiye. Isse hum aapki order ki jankari jaan sakte hain. \n\nAapko yeh yaad rahe ki hum 3 se 7 din mein aapka order aapke doorstep par pahunchate hain. - human: Aap Hindi mein nahin bol sakti - ai: Mujhe aapki order details dhoondhne mein madad karne ke liye aapka contact number ya email id chahiye. Aapko yeh yaad rahe ki hum 3 se 7 din mein aapka order aapke doorstep par pahunchate hain.\nMera order confirm ho gaya hai",
+        "human: Hi - ai: Hello! Welcome to Innovist. I am Innovist's Expert for skin and hair care products. Can you tell me for what specific product are you looking for? - human: I am having missing product - ai: I'm sorry to hear that you're missing a product. To assist you better, could you please share your contact number or email address? You can also raise a request for this issue at (https://innovist.com/apps/return_prime). Thank you for your understanding! - human: 9825058618 - ai: I understand how frustrating it can be to have a missing product, and I'm here to help you. Upon checking your order details, I found that you have placed more than one order. Here are your order numbers: \n\n- #3188630\n- #3124677\n- #3113492\n\nCould you please let me know which order is missing a product? Thank you! - human: 3124677 - ai: I understand how concerning it is to have a missing product, and I'm here to help you. Upon checking your order details, I found that you have placed more than one order. Here are your order numbers:\n\n- #3188630\n- #3124677\n- #3113492\n\nCould you please let me know which order is missing a product? Thank you!\nShampoo of 3124677",
+        "What's your best product?",
+        "human: Can you call me - ai: Good evening! I understand that you would like a call, and I apologize for any inconvenience. Please reach out to us directly at chat@innovist.com or call us at +91-9711170970 between 10 am - 7 pm for assistance. Thank you!\nMy lips like in two tone give me your best product",
+        "human: Hi - ai: Hello! Welcome to Innovist. I am Innovist's Expert for skin and hair care products. Can you tell me for what specific product are you looking for? - human: Xxxxxxxxxx - ai: Hello! Hope you’re doing well. How may I assist you today? - human: Xxxxxx - ai: Hello! Hope you’re doing well. How may I assist you today?\nPlease 🥺 xxxxxxxxxx x"
+      ],
+      "cluster_silhouette": 0.564647912979126,
+      "coherence": 0.6508833765983582,
+      "proposal_confidence": 0.5905185520648957,
+      "suggested_primary": "recommendation",
+      "llm_error": "HTTPError 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kbq4fdpneyzadjhkaryyp6p7` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5419, Requested 1390. Please try again in 8.09s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n"
+    }
+  ]
+}
